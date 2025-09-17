@@ -1,0 +1,38 @@
+# Python bytecode
+*.pyc
+__pycache__/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.swp
+*.bak
+*~
+
+# Poetry specific
+# The poetry.lock file should generally be committed for reproducibility,
+# but if you have a specific reason to ignore it, uncomment the line below.
+# poetry.lock
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Test/coverage reports
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Operating System specific
+.DS_Store
+Thumbs.db
+
+# Any other project-specific files you want to ignore
+# For example, if you have a data directory that shouldn't be committed:
+# data/
